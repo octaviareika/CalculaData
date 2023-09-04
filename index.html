@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width">
+        <title>Título</title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+<body>
+
+    <main class="principal">
+            <section class="secao">
+                <h1 class="titulo-principal">DATA</h1>
+                    <form class="formulario">
+                        <span class="mensagem-erro"></span>
+                        <div class="divisao-formulario">
+
+                            <div class="campo-separado">
+                                <label class="titulo-campo" for="Ano">ANO</label>
+                                <input id="ano" name="Ano" placeholder="YYYY" type="number" class="campo"  maxlength="4">
+                            </div>
+
+                            <div class="campo-separado">
+                                <label class="titulo-campo" for="Mes">MÊS</label>
+                                <input id="mes" name="Mes" placeholder="MM" type="number" class="campo" maxlength="2">
+                                
+                            </div>
+
+                            <div class="campo-separado">
+                                <label class="titulo-campo" for="Dia">DIA</label>
+                                <input id="dia" name="Dia" placeholder="DD" type="number" class="campo"  maxlength="2">
+                                
+                            </div>
+                        </div>
+
+                        
+                        <input class="envio" id="enviar" checked type="submit" value="OK">
+                        
+                </form>
+
+            <div class="data-mostrada">
+                <h2><span class="anos">--</span>
+                    anos
+                </h2>
+                <h2><span class="meses">--</span>
+                    meses
+                </h2>
+                <h2><span class="dias">--</span>
+                    dias
+                </h2>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
